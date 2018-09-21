@@ -9,6 +9,7 @@ import java.sql.Statement;
 import java.util.ResourceBundle;
 
 import com.atos.jdbc.conexion.Conexion;
+import com.atos.jdbc.conexion.IConexion;
 
 /**
  * Padre comun a todos los daos de jdbc.<br/>
@@ -34,7 +35,7 @@ public abstract class Abstract_DAO {
 	 */
 	public Abstract_DAO() {
 		// INICIAMOS EL PROCESO DE OBTENCION DE CONEXION
-		Conexion con = new Conexion();
+		IConexion con = new Conexion();
 		// SOLICITAMOS CONEXION SEGUN LA ESTRATEGIA QUE NECESITEMOS
 		con.crear_ConexionAutomatica();
 		// RECOGEMOS LA CONEXION OBTENIDA
