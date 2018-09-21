@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/com/atos/jar/ojdbc14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/jcl-over-slf4j-1.7.13.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/slf4j-simple-1.7.13.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/spring-aop-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/spring-beans-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/spring-context-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/spring-core-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/spring-sintaxis-avanzada/src/com/atrium/jar/spring/spring-expression-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/ATOS Aurelijus/spring-aspects-4.3.9.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.ajdt.aspectpath" value="org.eclipse.ajdt.aspectpath"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

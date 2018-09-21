@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-sep-2018 11:03:14 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.ad.hibernate.dto.Articulos" table="ARTICULOS">
+        <id name="codigo_articulo" type="int">
+            <column name="CODIGO_ARTICULO" length="5" />
+            <generator class="assigned" />
+        </id>
+        <property name="cantidad" type="int">
+            <column name="CANTIDAD" length="5" />
+        </property>
+        <property name="descripcion_articulo" type="java.lang.String">
+            <column name="DESCRIPCION_ARTICULO" length="40" />
+        </property>
+        <property name="precio_unidad_articulo" type="double">
+            <column name="PRECIO_UNIDAD_ARTICULO" length="13" />
+        </property>
+    </class>
+</hibernate-mapping>
